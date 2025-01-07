@@ -18,6 +18,7 @@ git clone <repository_url>
 cd <project_directory>
 ```
 
+
 ---
 
 ### 2. Create and Activate a Virtual Environment
