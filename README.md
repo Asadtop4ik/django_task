@@ -88,28 +88,6 @@ The API will be available at `http://127.0.0.1:8000/`.
 - **PUT** `/order-items/{id}/` - Update an order item by ID
 - **DELETE** `/order-items/{id}/` - Delete an order item by ID
 
----
-
-## Example Requests
-
-### Get All Products
-```bash
-curl -X GET http://127.0.0.1:8000/products/ -H "accept: application/json"
-```
-
-### Create a New Product
-```bash
-curl -X POST http://127.0.0.1:8000/products/ \
--H "Content-Type: application/json" \
--d '{
-    "name": "Sample Product",
-    "description": "This is a sample product.",
-    "price": 100.50,
-    "category": 1
-}'
-```
-
----
 
 ## Additional Notes
 - **Python Version**: Ensure you are using Python 3.7+.
